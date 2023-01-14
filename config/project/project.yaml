@@ -1,0 +1,31 @@
+dateModified: 1673738297
+email:
+  fromEmail: jared+ddev@bluefishds.com
+  fromName: craft4-ddev-test
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  main:
+    hasUrls: true
+    name: Main
+    settings:
+      path: /assets/uploads
+    type: craft\fs\Local
+    url: $PRIMARY_SITE_URL
+meta:
+  __names__:
+    7d0bc758-0e7e-4b82-b60b-9519f932de6c: Main # Main
+    265b9fec-e84e-4197-8a33-24aad0e2acb7: Common # Common
+    a438467d-9ba0-490f-8668-0ebdbad4d63f: craft4-ddev-test # craft4-ddev-test
+    fef3d636-b821-4114-ae4c-da7cd50586f6: craft4-ddev-test # craft4-ddev-test
+system:
+  edition: solo
+  live: true
+  name: craft4-ddev-test
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
