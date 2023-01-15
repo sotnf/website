@@ -1,4 +1,4 @@
-dateModified: 1673738297
+dateModified: 1673741896
 email:
   fromEmail: jared+ddev@bluefishds.com
   fromName: craft4-ddev-test
@@ -8,7 +8,7 @@ fs:
     hasUrls: true
     name: Main
     settings:
-      path: /assets/uploads
+      path: $DDEV_FILES_DIR
     type: craft\fs\Local
     url: $PRIMARY_SITE_URL
 meta:
