@@ -1,4 +1,51 @@
-dateModified: 1673741896
+dateModified: 1676915544
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: singles
+      tableAttributes:
+        - dateUpdated
+        - drafts
+        - link
+      type: native
+    -
+      condition:
+        class: craft\elements\conditions\entries\EntryCondition
+        conditionRules:
+          -
+            class: craft\elements\conditions\HasUrlConditionRule
+            uid: 4c5da0fa-c249-42ae-adcb-fa7c043e2191
+            value: true
+        elementType: craft\elements\Entry
+        fieldContext: global
+      defaultSort:
+        - title
+        - asc
+      key: 'custom:dd3074b6-bcc4-4773-9ded-ec61080b5f3b'
+      label: 'All URL Entries'
+      tableAttributes:
+        - dateUpdated
+        - section
+        - type
+        - slug
+        - link
+      type: custom
 email:
   fromEmail: jared+ddev@bluefishds.com
   fromName: craft4-ddev-test
@@ -10,12 +57,30 @@ fs:
     settings:
       path: $DDEV_FILES_DIR
     type: craft\fs\Local
-    url: $PRIMARY_SITE_URL
+    url: '@uploads'
 meta:
   __names__:
+    0ec0fd76-17c9-432d-9f69-03ddc953daa3: Links # Links
+    2e01b95d-9e2c-4e43-96fd-db0f572cb1a9: 'Off-Site URL' # Off-Site URL
+    5d616dc9-f4c4-4051-b300-8091a54588e9: 'Group Title' # Group Title
+    6c1c25a1-2d63-4132-bc71-3c3758e335f2: Heading # Heading
     7d0bc758-0e7e-4b82-b60b-9519f932de6c: Main # Main
+    07f26b92-6fb6-4dba-b584-a3e78a060587: 'Social Media' # Social Media
+    8b88dd11-2096-4b80-aeef-bddc0ebc68dd: 'Page Title' # Page Title
+    24afbf15-02d5-4a51-9507-c4db5c7a0c51: Image1 # Image1
+    35dd087a-7cb7-4a6e-908f-0cbd91cb7380: 'Social Media Link' # Social Media Link
+    94df1a09-8faf-4017-b9a3-16bc3639889b: 'Display Text' # Display Text
     265b9fec-e84e-4197-8a33-24aad0e2acb7: Common # Common
+    383f3683-9ae9-447a-b478-59400a6b6298: 'Quick Links' # Quick Links
+    675db4a7-3326-4288-bdf2-23eccd2af4ae: Links # Links
+    a8c4260d-fbe5-4f6c-bc4d-f89448a74340: Divider # Divider
     a438467d-9ba0-490f-8668-0ebdbad4d63f: craft4-ddev-test # craft4-ddev-test
+    b8a94bc8-78e9-4950-82ea-6ae7143a7e15: homepage # homepage
+    b78756cb-ef51-4055-ae61-8816378ca560: 'Profile Handle' # Profile Handle
+    c1e4874e-8df8-47f7-9c1e-914922ad08c9: 'External Link' # External Link
+    c75064c4-aaf9-4dab-a273-50685267bf2f: Heading # Heading
+    da0e69e9-a2b4-4c33-8f62-4b45fe97396b: 'External Link' # External Link
+    f1b58542-cd75-4290-a699-88cb5e110904: homepage # homepage
     fef3d636-b821-4114-ae4c-da7cd50586f6: craft4-ddev-test # craft4-ddev-test
 system:
   edition: solo
