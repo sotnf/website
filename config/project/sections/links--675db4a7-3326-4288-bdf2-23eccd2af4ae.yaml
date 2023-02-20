@@ -4,9 +4,9 @@ handle: links
 name: Links
 propagationMethod: all
 siteSettings:
-  a438467d-9ba0-490f-8668-0ebdbad4d63f: # craft4-ddev-test
+  a438467d-9ba0-490f-8668-0ebdbad4d63f: # Southerners Organizing To Neutralize Fundamentalism - $DDEV_SITENAME
     enabledByDefault: true
     hasUrls: true
-    template: links/_entry
+    template: links/_links.twig
     uriFormat: links
 type: single

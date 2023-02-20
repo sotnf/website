@@ -1,0 +1,45 @@
+{% extends "_layout.twig" %}
+
+    {% block head %}
+
+        <script src="https://unpkg.com/feather-icons"></script>
+
+    {% endblock %}
+
+    {% block content %}
+        <div class="container">
+        <hgroup class="sitewide"><h1>{{entry.pageTitle}}</h1></hgroup>
+
+
+        {% for block in entry.quickLinks.all() %}  
+            {% if block.type == "externalLink" %}
+                
+                <div class="links-container">
+                <a href="{{ block.offSiteUrl }}" class="btn links-container" target="_blank">{{ block.displayText }}</a>
+                </div>
+            
+            {% endif %}
+            {% if block.type == "socialMedia" %}
+                
+                <div class="links-container">
+                <a href="{{ block.socialMediaUrl }}" class="btn links-container" target="_blank">{{ block.profileHandle }}</a>
+                </div>
+
+            {% endif %}
+            {% if block.type == "divider" %}
+                
+                <div><h2>{{ block.groupTitle }}</h2>
+                <hr class="hr hr--links">
+                </div>
+            
+            {% endif %}
+            {% if block.type == "heading" %}
+            
+                <div><h2>{{ block.heading }}</h2></div>
+            
+            {% endif %}
+
+        {% endfor %}
+        </div>
+
+    {% endblock %}

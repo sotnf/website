@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+  
+  <head>
+    {% block head %}
+    <meta charset="utf-8"/>
+    <title>{{ entry.title }}</title>
+    {% endblock %}
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=block" rel="stylesheet">
+  </head>
+  
+  <body class="main">
+      
+      {% block content %}
+      
+        <div class="container">
+        <hgroup class="sitewide">
+            <h1>This is the <strong>{{siteName}}</strong> default block content.</h1>
+            <br>
+            <br>
+            <p><strong><strong>UPDATE THIS TEMPLATE</stong></strong></p>
+                {# other templates will put stuff here, inside the content block #}
+            </hgroup>
+        </div>
+      
+      {% endblock %}
+
+    <div class="footer">
+    
+        {% block footercontent %}
+    
+    
+        {% endblock %}
+        <div class="footer--tm">
+            <p style="text-transform: uppercase; font-size: 1.6rem">{{siteName}}</p>
+            <p>All Rights Reserved | Copyright <script>document.write(new Date().getFullYear())</script></p>
+        </div>
+    </div>
+  </body>
+</html>
