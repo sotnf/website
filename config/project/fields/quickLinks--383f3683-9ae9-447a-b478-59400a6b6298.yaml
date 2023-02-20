@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 265b9fec-e84e-4197-8a33-24aad0e2acb7 # Common
+handle: quickLinks
+instructions: null
+name: 'Quick Links'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_quicklinks}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

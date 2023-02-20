@@ -1,0 +1,73 @@
+field: 383f3683-9ae9-447a-b478-59400a6b6298 # Quick Links
+fieldLayouts:
+  6455b91c-8336-4197-8245-23386772afe8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b78756cb-ef51-4055-ae61-8816378ca560 # Profile Handle
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f569f47-1ec7-490a-85e5-127baf5b3402
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 35dd087a-7cb7-4a6e-908f-0cbd91cb7380 # Social Media Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c47b56a-e070-4075-9fbe-b8b613d6c312
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0fae78c9-830d-455c-be1c-6810d234da75
+        userCondition: null
+fields:
+  35dd087a-7cb7-4a6e-908f-0cbd91cb7380: # Social Media Link
+    columnSuffix: nogbuhkh
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: socialMediaLink
+    instructions: 'Paste the FULL URL to your social media profile.'
+    name: 'Social Media Link'
+    searchable: true
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  b78756cb-ef51-4055-ae61-8816378ca560: # Profile Handle
+    columnSuffix: ollvdhyc
+    contentColumnType: text
+    fieldGroup: null
+    handle: profileHandle
+    instructions: null
+    name: 'Profile Handle'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: socialMedia
+name: 'Social Media'
+sortOrder: 2

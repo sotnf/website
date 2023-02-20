@@ -1,0 +1,46 @@
+field: 383f3683-9ae9-447a-b478-59400a6b6298 # Quick Links
+fieldLayouts:
+  539d0475-0d42-4cba-b1cb-37fcddf577d4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c75064c4-aaf9-4dab-a273-50685267bf2f # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7abe04d0-c268-449e-967b-0d2a8d71098d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b574f801-d439-4d75-934c-965433c82027
+        userCondition: null
+fields:
+  c75064c4-aaf9-4dab-a273-50685267bf2f: # Heading
+    columnSuffix: lumkykrk
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: heading
+name: Heading
+sortOrder: 4

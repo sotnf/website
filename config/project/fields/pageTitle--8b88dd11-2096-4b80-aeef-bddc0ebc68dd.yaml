@@ -1,0 +1,19 @@
+columnSuffix: uxztyzvk
+contentColumnType: text
+fieldGroup: 265b9fec-e84e-4197-8a33-24aad0e2acb7 # Common
+handle: pageTitle
+instructions: null
+name: 'Page Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

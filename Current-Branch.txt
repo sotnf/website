@@ -1,2 +1,3 @@
 # REPO - Branch Current Branch
 # Asset Fix-Permissions
+## Testing Control-Panel Settings to reveal thumbnails.

@@ -1,0 +1,16 @@
+columnSuffix: gxsqssfm
+contentColumnType: string(255)
+fieldGroup: 265b9fec-e84e-4197-8a33-24aad0e2acb7 # Common
+handle: externalLink
+instructions: 'This is a simple link that goes off-site.'
+name: 'External Link'
+searchable: true
+settings:
+  maxLength: 255
+  types:
+    - url
+    - tel
+    - email
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url
